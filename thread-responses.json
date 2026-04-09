@@ -1,0 +1,12 @@
+[
+  {
+    "thread_id": "PRRT_kwDORxYm0M55_Htc",
+    "action": "fixed",
+    "comment": "Changed `>= 0` to `> 0` in isPositiveNumber so zero is no longer considered positive."
+  },
+  {
+    "thread_id": "PRRT_kwDORxYm0M55_Htd",
+    "action": "fixed",
+    "comment": "Changed DEFAULT_TIMEOUT from 30 to 60 to match the production default."
+  }
+]
