@@ -1,0 +1,7 @@
+{
+  "name": "gh-crfix-e2e-fixtures",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
