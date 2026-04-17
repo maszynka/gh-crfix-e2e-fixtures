@@ -8,7 +8,7 @@ function isValidEmail(email) {
 }
 
 function isPositiveNumber(value) {
-  return typeof value === 'number' && value >= 0;
+  return typeof value === 'number' && value > 0;
 }
 
 function sanitizeInput(input) {
