@@ -1,5 +1,4 @@
-# Application configuration (production defaults)
-DEFAULT_TIMEOUT = 60
-MAX_RETRIES = 3
+# Application configuration
+DEFAULT_TIMEOUT = 30
+MAX_RETRIES = 5
 DEBUG = False
-ENVIRONMENT = "production"
