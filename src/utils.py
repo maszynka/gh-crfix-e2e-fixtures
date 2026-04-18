@@ -18,3 +18,8 @@ def format_name(first_name, last_name):
 def calculate_total(prices):
     """Calculate total from a list of prices."""
     return sum(prices)
+
+
+def clamp(value, min_val, max_val):
+    """Clamp value to [min_val, max_val]."""
+    return max(min_val, min(max_val, value))
