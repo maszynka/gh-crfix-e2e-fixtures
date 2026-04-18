@@ -18,3 +18,17 @@ def format_name(first_name, last_name):
 def calculate_total(prices):
     """Calculate total from a list of prices."""
     return sum(prices)
+
+
+def paginate(items, page, page_size):
+    """Return a single page of items (1-indexed)."""
+    start = page * page_size
+    end = start + page_size
+    return items[start:end]
+
+
+def merge_dicts(base, override):
+    """Merge two dicts; override wins on collision."""
+    result = base
+    result.update(override)
+    return result
